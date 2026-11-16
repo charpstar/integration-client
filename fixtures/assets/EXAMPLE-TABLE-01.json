@@ -1,0 +1,17 @@
+{
+  "_source": "An article still in production: the URL fields and embed are null until delivery, no images yet.",
+  "articleId": "EXAMPLE-TABLE-01",
+  "name": "Example Dining Table, oak 140",
+  "status": "in_production",
+  "deliveryDate": null,
+  "updatedAt": "2026-10-19T14:00:00.000Z",
+  "glbUrl": null,
+  "usdzUrl": null,
+  "usdzReady": false,
+  "thumbnailUrl": null,
+  "viewerUrl": null,
+  "arUrl": null,
+  "embed": null,
+  "images": [],
+  "variations": []
+}

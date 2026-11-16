@@ -1,0 +1,48 @@
+{
+  "_source": "GET /api/v1/presets response: the example of the OpenAPI document.",
+  "presets": [
+    {
+      "id": "3b2a1c0d-0000-4000-8000-000000000031",
+      "name": "Armchairs and lounge chairs",
+      "type": "packshot",
+      "description": null,
+      "defaults": {
+        "views": [
+          "FrontRight",
+          "FrontLeft",
+          "Front",
+          "Back",
+          "Side"
+        ],
+        "background": "#FFFFFF",
+        "size": 2000,
+        "aspectRatio": "1:1",
+        "format": "jpg",
+        "shadows": false,
+        "lighting": "studio"
+      },
+      "exampleUrl": null
+    },
+    {
+      "id": "3b2a1c0d-0000-4000-8000-000000000032",
+      "name": "Marketplace (GS1)",
+      "type": "packshot",
+      "description": null,
+      "defaults": {
+        "views": [
+          "1C",
+          "1L",
+          "1R",
+          "7C"
+        ],
+        "background": "#FFFFFF",
+        "size": 2000,
+        "aspectRatio": "1:1",
+        "format": "jpg",
+        "shadows": true,
+        "lighting": "studio"
+      },
+      "exampleUrl": null
+    }
+  ]
+}

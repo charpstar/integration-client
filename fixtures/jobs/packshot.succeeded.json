@@ -1,0 +1,67 @@
+{
+  "_source": "GET /api/v1/jobs/{jobId} response: the example \"Finished\" of the OpenAPI document, for the example chair. {{BASE}} is replaced by the mock platform's address in tests.",
+  "id": "5c0e2f9a-7b14-4d3e-a8c1-93f6e2b7d045",
+  "type": "packshot",
+  "articleId": "EXAMPLE-CHAIR-01",
+  "variant": null,
+  "status": "succeeded",
+  "options": {
+    "views": [
+      "front",
+      "left",
+      "back"
+    ],
+    "background": "transparent",
+    "size": 4096,
+    "aspectRatio": "1:1",
+    "format": "png",
+    "shadows": true,
+    "lighting": "studio",
+    "preset": "Marketplace (GS1)"
+  },
+  "naming": {
+    "preset": "gs1"
+  },
+  "metadata": {
+    "purchaseOrder": "PO-88213"
+  },
+  "createdAt": "2026-11-02T08:00:00.000Z",
+  "startedAt": "2026-11-02T08:01:10.000Z",
+  "finishedAt": "2026-11-02T08:09:52.000Z",
+  "outputs": [
+    {
+      "id": "c41f9a07-2b3c-4d5e-8f6a-7b8c9d0e1f2a",
+      "type": "packshot",
+      "view": "front",
+      "format": "png",
+      "fileName": "09521234567806_C1C0.png",
+      "url": "{{BASE}}/files/09521234567806_C1C0.png",
+      "width": 4096,
+      "height": 4096,
+      "bytes": 3210442
+    },
+    {
+      "id": "5e83d1b2-3c4d-4e5f-9a6b-8c9d0e1f2a3b",
+      "type": "packshot",
+      "view": "left",
+      "format": "png",
+      "fileName": "09521234567806_C2C0.png",
+      "url": "{{BASE}}/files/09521234567806_C2C0.png",
+      "width": 4096,
+      "height": 4096,
+      "bytes": 3210442
+    },
+    {
+      "id": "f0a7c6e9-4d5e-4f6a-8b7c-9d0e1f2a3b4c",
+      "type": "packshot",
+      "view": "back",
+      "format": "png",
+      "fileName": "09521234567806_C7C0.png",
+      "url": "{{BASE}}/files/09521234567806_C7C0.png",
+      "width": 4096,
+      "height": 4096,
+      "bytes": 3210442
+    }
+  ],
+  "error": null
+}

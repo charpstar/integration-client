@@ -1,0 +1,42 @@
+{
+  "id": "4b5c6d7e-8f9a-4b0c-9d1e-2f3a4b5c6d7e",
+  "type": "job.cancelled",
+  "occurredAt": "2026-11-02T08:09:52.000Z",
+  "client": {
+    "id": "3d1f0c52-6a7b-4c8d-9e0f-1a2b3c4d5e6f",
+    "name": "Demo CharpstAR"
+  },
+  "article": "EXAMPLE-CHAIR-01",
+  "data": {
+    "id": "5c0e2f9a-7b14-4d3e-a8c1-93f6e2b7d045",
+    "type": "packshot",
+    "articleId": "EXAMPLE-CHAIR-01",
+    "variant": null,
+    "status": "cancelled",
+    "options": {
+      "views": [
+        "front",
+        "left",
+        "back"
+      ],
+      "background": "transparent",
+      "size": 4096,
+      "aspectRatio": "1:1",
+      "format": "png",
+      "shadows": true,
+      "lighting": "studio",
+      "preset": "Marketplace (GS1)"
+    },
+    "naming": {
+      "preset": "gs1"
+    },
+    "metadata": {
+      "purchaseOrder": "PO-88213"
+    },
+    "createdAt": "2026-11-02T08:00:00.000Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-02T08:00:20.000Z",
+    "outputs": [],
+    "error": null
+  }
+}

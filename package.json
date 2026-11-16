@@ -1,0 +1,32 @@
+{
+  "name": "charpstar-integration-client",
+  "version": "1.0.0",
+  "description": "Reference client for the CharpstAR Integration API: push products, follow orders, receive webhooks or poll, download 3D links and images, render packshots.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "check": "node src/index.ts check",
+    "push": "node src/index.ts push",
+    "pull": "node src/index.ts pull",
+    "listen": "node src/index.ts listen",
+    "poll": "node src/index.ts poll",
+    "orders": "node src/index.ts orders",
+    "render": "node src/index.ts render",
+    "smoke": "node src/index.ts smoke",
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charpstar/integration-client.git"
+  },
+  "homepage": "https://charpstar.co/docs",
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

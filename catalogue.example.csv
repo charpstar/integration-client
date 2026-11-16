@@ -1,0 +1,4 @@
+article_id,name,category,width_cm,height_cm,depth_cm,colours,images,product_link,active,external_id
+EXAMPLE-CHAIR-01,"Example Lounge Chair, blue",Chairs,72,81,78,BLUE:Blue fabric|GREY:Grey fabric,https://cdn.example.com/images/chair-front.png,https://shop.example.com/products/lounge-chair,true,erp-10001
+EXAMPLE-TABLE-01,"Example Dining Table, oak 140",Tables,140,75,90,OAK:Oak,https://cdn.example.com/images/table-front.jpg|https://cdn.example.com/images/table-side.jpg,,true,
+EXAMPLE-LAMP-01,Example Floor Lamp,Lighting,,,,,,,true,

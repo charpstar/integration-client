@@ -1,0 +1,9 @@
+.env
+!.env.example
+state.json
+catalogue.json
+catalogue.csv
+out/
+node_modules/
+node_modules
+out

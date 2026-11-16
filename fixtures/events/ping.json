@@ -1,0 +1,8 @@
+{
+  "id": "0d5a6f3c-5b6a-4dbe-9e7f-9a0b1c2d3e4f",
+  "type": "ping",
+  "occurredAt": "2026-10-15T08:05:00.000Z",
+  "client": { "id": "3d1f0c52-6a7b-4c8d-9e0f-1a2b3c4d5e6f", "name": "Demo CharpstAR" },
+  "article": null,
+  "data": { "message": "Test notification from CharpstAR." }
+}

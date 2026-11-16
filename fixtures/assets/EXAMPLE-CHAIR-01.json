@@ -1,0 +1,28 @@
+{
+  "_source": "GET /api/v1/assets/{article} response (public contract, 15 Oct 2026). {{BASE}} is replaced by the mock platform's address in tests.",
+  "articleId": "EXAMPLE-CHAIR-01",
+  "name": "Example Lounge Chair, blue",
+  "status": "delivered",
+  "deliveryDate": "2026-10-20",
+  "updatedAt": "2026-10-20T09:30:00.000Z",
+  "glbUrl": "https://cdn.charpstar.net/DemoCharpstAR/Android/EXAMPLE-CHAIR-01.glb",
+  "usdzUrl": "https://cdn.charpstar.net/DemoCharpstAR/iOS/EXAMPLE-CHAIR-01.usdz",
+  "usdzReady": true,
+  "thumbnailUrl": "{{BASE}}/files/img_packshot_front.png",
+  "viewerUrl": "https://platform.charpstar.co/agent-viewer?glb=https%3A%2F%2Fcdn.charpstar.net%2FDemoCharpstAR%2FAndroid%2FEXAMPLE-CHAIR-01.glb&name=Example%20Lounge%20Chair%2C%20blue&viewer=default",
+  "arUrl": "https://platform.charpstar.co/ar/0b6c9f0e-5d1a-4c47-9f4e-2a1d3c4b5e6f",
+  "embed": {
+    "dataClient": "DemoCharpstAR",
+    "dataArticleId": "EXAMPLE-CHAIR-01",
+    "snippet": "<script src=\"https://js.charpstar.net/V2/charpstAR-Base.js\" data-client=\"DemoCharpstAR\" defer></script>\n<charpstar-viewer data-articleid=\"EXAMPLE-CHAIR-01\"></charpstar-viewer>"
+  },
+  "images": [
+    { "id": "img_packshot_front", "type": "packshot", "variant": "BLUE", "url": "{{BASE}}/files/img_packshot_front.png", "width": 4, "height": 4, "bytes": 73, "createdAt": "2026-10-20T09:00:00.000Z", "approved": true, "primary": true },
+    { "id": "img_render_side", "type": "render", "variant": "BLUE", "url": "{{BASE}}/files/img_render_side.jpg", "width": null, "height": null, "bytes": null, "createdAt": null, "approved": true, "primary": false },
+    { "id": "img_render_draft", "type": "render", "variant": "GREY", "url": "{{BASE}}/files/img_render_draft.jpg", "width": 4, "height": 4, "bytes": 776, "createdAt": "2026-10-20T09:06:00.000Z", "approved": false, "primary": false },
+    { "id": "vid_turntable", "type": "video", "variant": null, "url": "{{BASE}}/files/vid_turntable.mp4", "posterUrl": "{{BASE}}/files/img_packshot_front.png", "width": 1920, "height": 1080, "bytes": null, "createdAt": "2026-10-20T09:10:00.000Z", "approved": true, "primary": false }
+  ],
+  "variations": [
+    { "articleId": "EXAMPLE-CHAIR-01-GREY", "status": "in_production", "thumbnailUrl": null, "glbUrl": null }
+  ]
+}

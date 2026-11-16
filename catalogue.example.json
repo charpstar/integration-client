@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "articleId": "EXAMPLE-CHAIR-01",
+      "externalId": "erp-10001",
+      "name": "Example Lounge Chair, blue",
+      "category": "Chairs",
+      "dimensionsCm": { "w": 72, "h": 81, "d": 78 },
+      "variants": [
+        { "code": "BLUE", "colour": "Blue fabric" },
+        { "code": "GREY", "colour": "Grey fabric" }
+      ],
+      "images": ["https://cdn.example.com/images/chair-front.png"],
+      "productLink": "https://shop.example.com/products/lounge-chair",
+      "active": true
+    },
+    {
+      "articleId": "EXAMPLE-TABLE-01",
+      "name": "Example Dining Table, oak 140",
+      "category": "Tables",
+      "dimensionsCm": { "w": 140, "h": 75, "d": 90 },
+      "variants": [{ "code": "OAK", "colour": "Oak", "material": "Solid oak" }],
+      "images": ["https://cdn.example.com/images/table-front.jpg", "https://cdn.example.com/images/table-side.jpg"],
+      "productLink": null,
+      "active": true
+    },
+    {
+      "articleId": "EXAMPLE-LAMP-01",
+      "name": "Example Floor Lamp",
+      "category": "Lighting",
+      "images": [],
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "_source": "GET /api/v1/orders/{orderId} response: the example of the OpenAPI document.",
+  "id": "4d3c2b1a-0000-4000-8000-000000000011",
+  "status": "in_production",
+  "source": "api",
+  "createdAt": "2026-10-20T09:31:00.000Z",
+  "counts": {
+    "received": 0,
+    "in_production": 3,
+    "in_review": 1,
+    "approved": 0,
+    "delivered": 2,
+    "cancelled": 0
+  },
+  "items": [
+    {
+      "articleId": "CH-1001",
+      "status": "in_production",
+      "deliveryDate": "2026-11-20",
+      "pendingChanges": null
+    },
+    {
+      "articleId": "CH-1002",
+      "status": "delivered",
+      "deliveryDate": "2026-11-01",
+      "pendingChanges": null
+    }
+  ]
+}

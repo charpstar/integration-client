@@ -1,0 +1,45 @@
+{
+  "id": "3a4b5c6d-7e8f-4a9b-8c0d-1e2f3a4b5c6d",
+  "type": "job.failed",
+  "occurredAt": "2026-11-02T08:09:52.000Z",
+  "client": {
+    "id": "3d1f0c52-6a7b-4c8d-9e0f-1a2b3c4d5e6f",
+    "name": "Demo CharpstAR"
+  },
+  "article": "EXAMPLE-CHAIR-01",
+  "data": {
+    "id": "5c0e2f9a-7b14-4d3e-a8c1-93f6e2b7d045",
+    "type": "packshot",
+    "articleId": "EXAMPLE-CHAIR-01",
+    "variant": null,
+    "status": "failed",
+    "options": {
+      "views": [
+        "front",
+        "left",
+        "back"
+      ],
+      "background": "transparent",
+      "size": 4096,
+      "aspectRatio": "1:1",
+      "format": "png",
+      "shadows": true,
+      "lighting": "studio",
+      "preset": "Marketplace (GS1)"
+    },
+    "naming": {
+      "preset": "gs1"
+    },
+    "metadata": {
+      "purchaseOrder": "PO-88213"
+    },
+    "createdAt": "2026-11-02T08:00:00.000Z",
+    "startedAt": "2026-11-02T08:01:10.000Z",
+    "finishedAt": "2026-11-02T08:09:52.000Z",
+    "outputs": [],
+    "error": {
+      "code": "internal_error",
+      "message": "The pictures could not be made. Our team has been told; you can start the job again."
+    }
+  }
+}

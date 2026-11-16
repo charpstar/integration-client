@@ -1,0 +1,17 @@
+{
+  "id": "9c4f5e2b-4a5f-4cad-8d6e-8f9a0b1c2d3e",
+  "type": "product.received",
+  "occurredAt": "2026-10-15T08:00:00.000Z",
+  "client": { "id": "3d1f0c52-6a7b-4c8d-9e0f-1a2b3c4d5e6f", "name": "Demo CharpstAR" },
+  "article": "EXAMPLE-CHAIR-01",
+  "data": {
+    "articleId": "EXAMPLE-CHAIR-01",
+    "name": "Example Lounge Chair, blue",
+    "category": "Chairs",
+    "subcategory": null,
+    "dimensionsCm": { "w": 72, "h": 81, "d": 78 },
+    "productLink": "https://shop.example.com/products/lounge-chair",
+    "status": "received",
+    "receivedAt": "2026-10-15T08:00:00.000Z"
+  }
+}
